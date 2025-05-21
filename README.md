@@ -1,0 +1,1 @@
+**Human-text vs. AI-text classifier:** BERT model trained on a standard news corpora tuned to be able to detect machine-generated text. model.safetensors is not included since it exceeds Github's 100 MB file limit. TODO: create Box folder with large files and pre-trained models.
