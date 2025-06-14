@@ -17,7 +17,11 @@ This project is a system for detecting AI-generated text, developed for the CS 1
     ```
 4.  Ensure the training data (`real-vs-gpt2-sentences.jsonl`, `HC3.jsonl`) is in the `./data/` directory and the development set is in the `./devset/` directory.
 
-## How to Run
+## Run Pre-trained Model
+
+Download the `model.safetensors` file at https://ucla.box.com/shared/static/uuhwuxyacehw0mm7kymf7hvxquw8ms5r.safetensors and move it into the `bert_ai_detector_final` directory. Then, you may directly run the `evaluate_on_devset.ipynb` notebook without needing to train a new model. If you would like to test on a new development set, add your `.jsonl` file to the `devset` directory and add the name of the file to the `dev_filenames` list object in the `evaluate_on_devset.ipynb` notebook. Then, running the notebook should have it evaluate all three of the models on the additional dataset. Our main model is the hybrid model so you should pay attention to the metric scores that this model recieves.
+
+## How to Run (General)
 
 The project is structured into three main steps, executed via Jupyter notebooks or Python scripts.
 
@@ -38,3 +42,4 @@ Run the `evaluate_on_dev.ipynb` notebook. This script loads both the saved Naive
 ```bash
 jupyter notebook evaluate_on_dev.ipynb
 ```
+
