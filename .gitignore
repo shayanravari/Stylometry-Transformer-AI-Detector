@@ -1,3 +1,4 @@
 .env/
 logs/
+bert_ai_detector_checkpoints/
 bert_ai_detector_final/model.safetensors
