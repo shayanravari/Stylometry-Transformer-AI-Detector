@@ -1,11 +1,4 @@
-# AI Text Detection System - Final Project
-
-This project is a system for detecting AI-generated text, developed for the CS 162 final project. It includes a Naive Bayes baseline and a fine-tuned BERT-based classifier.
-
-## Team Members
-- Shayan Ravari
-- Rohith Venkatesh
-- Rishi Padmanabhan
+# AI Text Detection System
 
 ## Setup
 
